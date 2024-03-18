@@ -75,21 +75,21 @@ format:
 
 ## Career - Links {.smaller .scrollable}
 
--   Portfolio
+-   [Portfolio](https://www.trevorfrench.com/)
 
--   LinkedIn
+-   [LinkedIn](https://www.linkedin.com/in/frenchtrevor/)
 
--   GitHub
+-   [GitHub](https://github.com/TrevorFrench)
 
--   Medium
+-   [Medium](https://medium.com/@FrenchTrevor)
 
 -   R for Data Analysis
 
-    -   Book
+    -   [Book](https://trevorfrench.github.io/R-for-Data-Analysis/)
 
-    -   Paper
+    -   [Paper](https://doi.org/10.21105/jose.00202)
 
-## Crypto Journey  {.smaller .scrollable}
+## Crypto Journey {.smaller .scrollable}
 
 -   **2019**
 
@@ -132,3 +132,77 @@ format:
     -   [Jupiter Airdrop](https://solscan.io/tx/4oHcsGUKACJ5gwbJxPLUZW7mukGqz9mnEREbSCCAYuXSn4kCS24haYjUsgDkp7XUBzRVHjvEqvJMuWPGRTQJStgt)
 
     -   cryptotrackr [v.1.2.0](https://doi.org/10.5281/zenodo.10775699)
+
+## Crypto Basics - Internet {.smaller .scrollable}
+
+-   Paul Baran is tasked with developing a communications network that could survive a nuclear attack and puts forth the idea of a [distributed network in 1964](https://doi.org/10.1109/tcom.1964.1088883).
+
+-   This serves as a founding principle for the internet.
+
+::: columns
+::: {.column width="35%"}
+> "Since destruction of a small number of nodes in a decentralized network can destroy communications, the properties, problems, and hopes of building 'distributed' communications networks are of paramount interest." 
+>
+> \-[Paul Baran (1964)](https://doi.org/10.1109/tcom.1964.1088883)
+:::
+
+::: {.column width="65%"}
+![](./networks.png)
+:::
+:::
+
+## Crypto Basics - PoW {.smaller .scrollable}
+
+-   In the 1990s, Computer Scientists, Cryptographers, and [Cypherpunks](https://www.activism.net/cypherpunk/manifesto.html) begin working on applying PoW to systems that [combat junk mail](https://doi.org/10.1007/3-540-48071-4_10), [prevent DoS attacks](http://nakamotoinstitute.org/static/docs/hashcash.pdf), and even [payment systems](http://www.weidai.com/bmoney.txt).
+-   Early versions of BitCoin such as ["Reusable Proofs of Work"](https://nakamotoinstitute.org/finney/rpow/index.html) and ["Bit Gold"](https://nakamotoinstitute.org/library/bit-gold) are explored while cryptographers experiment with applying PoW to transactional systems.
+
+## Crypto Basics - Bitcoin Launch {.smaller .scrollable}
+
+::: columns
+::: {.column width="35%"}
+-   [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) is released in 2008
+-   Bitcoin Network launches in 2009
+:::
+
+::: {.column width="65%"}
+![](./btc.png)
+:::
+:::
+
+## Crypto Basics - A Secret Message {.smaller .scrollable}
+ 
+-   The first Bitcoin block has the following secret message embedded in it:
+
+> 5468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6 e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73
+
+-   We can write a script to decode the message:
+
+## {auto-animate=true}
+
+```{python}
+#| echo: true
+message = "5468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6\
+e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73" 
+```
+
+## {auto-animate=true}
+
+```{python}
+#| echo: true
+message = "5468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6\
+e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73" 
+decoded_message = ''.join([
+    chr(int(message[i:i+2], 16)) 
+    for i in range(0, len(message), 2)
+])
+print(decoded_message)
+```
+
+::: {.fragment .fade-in}
+![](./times2.png){fig-align="center" height="900px"}
+
+:::
+
+
+
+

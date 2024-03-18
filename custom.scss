@@ -3,5 +3,9 @@ $body-bg: white;
 $body-color: black;
 $font-family-sans-serif: "Courier";
 $presentation-heading-font: "Courier";
+$link-color: #42affa;
 
 /*-- scss:rules --*/
+blockquote {
+  font-size: 20px;
+}

@@ -3,7 +3,7 @@
     "path": "C:/Users/Trevor French/OneDrive - TaxBit/Desktop/R_Scripts/gchs/custom.scss",
     "project_path": "custom.scss",
     "type": "scss",
-    "hash": "0",
+    "hash": "4139536849",
     "contents": "",
     "dirty": false,
     "created": 1710767922973.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "4,38",
+        "cursorPosition": "5,21",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1710768340,
+    "lastKnownWriteTime": 1710772614,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1710768340217,
+    "last_content_update": 1710772614359,
     "read_only": false,
     "read_only_alternatives": []
 }
