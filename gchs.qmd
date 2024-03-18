@@ -13,9 +13,9 @@ format:
 
 3.  Crypto Basics
 
-4.  Software Demo
+4.  Hardware Demo
 
-5.  Hardware Demo
+5.  Fraud
 
 6.  Opportunities
 
@@ -137,7 +137,7 @@ format:
 
 -   Paul Baran is tasked with developing a communications network that could survive a nuclear attack and puts forth the idea of a [distributed network in 1964](https://doi.org/10.1109/tcom.1964.1088883).
 
--   This serves as a founding principle for the internet.
+-   This serves as a founding principle for the internet and ultimately cryptocurrency.
 
 ::: columns
 ::: {.column width="35%"}
@@ -153,6 +153,7 @@ format:
 
 ## Crypto Basics - PoW {.smaller .scrollable}
 
+-   Proof-of-Work (PoW) is a construct that imposes computational difficulty in order to participate in a system.
 -   In the 1990s, Computer Scientists, Cryptographers, and [Cypherpunks](https://www.activism.net/cypherpunk/manifesto.html) begin working on applying PoW to systems that [combat junk mail](https://doi.org/10.1007/3-540-48071-4_10), [prevent DoS attacks](http://nakamotoinstitute.org/static/docs/hashcash.pdf), and even [payment systems](http://www.weidai.com/bmoney.txt).
 -   Early versions of BitCoin such as ["Reusable Proofs of Work"](https://nakamotoinstitute.org/finney/rpow/index.html) and ["Bit Gold"](https://nakamotoinstitute.org/library/bit-gold) are explored while cryptographers experiment with applying PoW to transactional systems.
 
@@ -162,6 +163,7 @@ format:
 ::: {.column width="35%"}
 -   [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) is released in 2008
 -   Bitcoin Network launches in 2009
+-   Crypto "miners" can dedicate their computers to the network and receive Bitcoin in exchange for computing power.
 :::
 
 ::: {.column width="65%"}
@@ -170,14 +172,14 @@ format:
 :::
 
 ## Crypto Basics - A Secret Message {.smaller .scrollable}
- 
+
 -   The first Bitcoin block has the following secret message embedded in it:
 
 > 5468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6 e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73
 
 -   We can write a script to decode the message:
 
-## {auto-animate=true}
+##  {auto-animate="true"}
 
 ```{python}
 #| echo: true
@@ -185,7 +187,7 @@ message = "5468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6
 e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73" 
 ```
 
-## {auto-animate=true}
+##  {auto-animate="true"}
 
 ```{python}
 #| echo: true
@@ -200,9 +202,30 @@ print(decoded_message)
 
 ::: {.fragment .fade-in}
 ![](./times2.png){fig-align="center" height="900px"}
-
 :::
 
+## Crypto Basics - Ethereum {.smaller .scrollable}
 
+-   Ethereum [whitepaper](https://ethereum.org/en/whitepaper/) is launched in 2013 and outlines the idea of creating "A Next-Generation Smart Contract and Decentralized Application Platform"
+-   Ethereum blockchain goes live in 2015
+-   This allows the creation of decentralized applications that anyone can develop leading to things such as NFTs, Initial Coin Offerings (ICOs), Decentralized Autonomous Organizations (DAOs), Decentralized Finance (DeFi), custom tokens, GameFi, layer 2 blockchains, Ethereum Name Service (ENS), etc.
 
+## Crypto Basics - PoS {.smaller .scrollable}
 
+-   Ethereum moves to Proof-of-Stake in 2022 [citing energy efficiency and improved scalability as motivations](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
+-   The Ethereum PoS mechanism requires participants to put their Ethereum "at stake" (32 ETH) before they can serve as validators in the system
+-   In return for being a validator, participants receive a percentage of their staked value as a reward (staking)
+-   People who don't have the full amount can pool their resources to still receive "staking" rewards.
+
+## Hardware Demo - Helium Mining {.smaller .scrollable}
+
+-   The [Helium Network](https://www.helium.com/) is a layer 2 blockchain built on top of the Solana blockchain.
+-   Helium miners earn rewards by creating a wireless network with radio waves for IoT devices such as ride-share scooters, agricultural sensors, etc.
+-   Recently launched miners to support a 5G cellular network.
+
+![](./helium.png)
+
+## Hardware Demo - Wallets {.smaller .scrollable}
+
+-   Hardware wallets allow users to store their private keys on a physical device that isn't constantly connected to the internet.
+-   Acts as a Two-Factor Authentication (2FA) device

@@ -3,7 +3,7 @@
     "path": "C:/Users/Trevor French/OneDrive - TaxBit/Desktop/R_Scripts/gchs/gchs.qmd",
     "project_path": "gchs.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "248131390",
     "contents": "",
     "dirty": false,
     "created": 1710729014165.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "3251:5503.2001953125",
-        "cursorPosition": "178,0",
-        "scrollLine": "160"
+        "rmdVisualModeLocation": "4101:6108",
+        "cursorPosition": "230,52",
+        "scrollLine": "226"
     },
     "folds": "",
-    "lastKnownWriteTime": 1710780590,
+    "lastKnownWriteTime": 1710785320,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1710780590852,
+    "last_content_update": 1710785320538,
     "read_only": false,
     "read_only_alternatives": []
 }
