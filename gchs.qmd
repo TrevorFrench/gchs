@@ -223,7 +223,7 @@ print(decoded_message)
 -   Helium miners earn rewards by creating a wireless network with radio waves for IoT devices such as ride-share scooters, agricultural sensors, etc.
 -   Recently launched miners to support a 5G cellular network.
 
-![](./helium.png)
+![](./helium-dark.png){fig-align="center" height="500px"}
 
 ## Hardware Demo - Wallets {.smaller .scrollable}
 
