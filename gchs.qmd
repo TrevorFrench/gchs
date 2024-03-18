@@ -1,0 +1,30 @@
+---
+title: "Presentation"
+format:
+  revealjs: 
+    theme: dark
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+```
+
+# Agenda
+
+1.  Career (GCHS - Present)
+
+2.  Crypto Journey
+
+3.  Crypto Basics
+
+4.  Software Demo
+
+5.  Hardware Demo
+
+6.  Opportunities
+
+7.  Q&A
