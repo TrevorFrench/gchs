@@ -233,26 +233,26 @@ print(decoded_message)
 ## Fraud {.smaller .scrollable}
 
 -   [Wallet Drainers](https://www.trmlabs.com/post/drainware-unfortunately-coming-to-a-cryptocurrency-wallet-near-you) misrepresent themselves as genuine transactions; however, once you approve the transaction it withdraws all of your funds.
-  -   Defense 1: Transfer between a cold wallet/hot wallet for low trust transactions
-  -   Defense 2: Examine the source code of the transaction
-  -   Red Flag 1: Sense of urgency
-  -   Red Flag 2: Contract address has a short transaction history
+    -   Defense 1: Transfer between a cold wallet/hot wallet for low trust transactions
+    -   Defense 2: Examine the source code of the transaction
+    -   Red Flag 1: Sense of urgency
+    -   Red Flag 2: Contract address has a short transaction history
 -   [Rug Pulls](https://www.coindesk.com/learn/what-is-a-rug-pull-how-to-protect-yourself-from-getting-rugged/) occur when project founders attract investors with projects that seem like they have a lot of potential but ghost investors after they've received the money
 -   Whether it's blatant fraud or incompetence, investors have lost a lot of money when exchanges have gone out of business.
-  -   [BlockFi](https://www.npr.org/2022/11/28/1139431115/blockfi-ftx-bankruptcy-chapter-11) declared bankruptcy in 2022
-  -   [Celsius](https://www.theblock.co/post/275461/celsius-network-starts-3-billion-payout-emerging-from-bankruptcy) declared bankruptcy in 2022
-  -   [FTX](https://news.bloombergtax.com/crypto/enrons-liquidator-to-oversee-ftxs-massive-crypto-bankruptcy) declares bankruptcy in 2022
+    -   [BlockFi](https://www.npr.org/2022/11/28/1139431115/blockfi-ftx-bankruptcy-chapter-11) declared bankruptcy in 2022
+    -   [Celsius](https://www.theblock.co/post/275461/celsius-network-starts-3-billion-payout-emerging-from-bankruptcy) declared bankruptcy in 2022
+    -   [FTX](https://news.bloombergtax.com/crypto/enrons-liquidator-to-oversee-ftxs-massive-crypto-bankruptcy) declares bankruptcy in 2022
 - Stablecoins can also collapse. For example [Terra (UST) imploded in 2022](https://www.moodys.com/web/en/us/about/insights/data-stories/stablecoins-instability.html).
 
 ## Opportunities {.smaller .scrollable}
 
 -   Blockchain Analytics
-  -   Tools: [Dune](https://dune.com/), [Etherscan](https://etherscan.io/), [Covalent](https://www.covalenthq.com/), [cryptotrackr](https://github.com/TrevorFrench/cryptotrackr)
+    -   Tools: [Dune](https://dune.com/), [Etherscan](https://etherscan.io/), [Covalent](https://www.covalenthq.com/), [cryptotrackr](https://github.com/TrevorFrench/cryptotrackr)
 -   Blockchain Investigations
-  -   Resources: [Arkham Intelligence](https://platform.arkhamintelligence.com/), [Distributed Networks Institute](https://dn.institute/)
+    -   Resources: [Arkham Intelligence](https://platform.arkhamintelligence.com/), [Distributed Networks Institute](https://dn.institute/)
 -   Security
-  -   [Hack the Box](https://www.hackthebox.com/hacker), [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+    -   [Hack the Box](https://www.hackthebox.com/hacker), [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
 -   Programming
-  -   [Alchemy University](https://www.alchemy.com/university/courses/solidity), [codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
+    -   [Alchemy University](https://www.alchemy.com/university/courses/solidity), [codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
 
 ## Q&A
