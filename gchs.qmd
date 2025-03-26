@@ -37,7 +37,7 @@ format:
 
     -   M.S. Data Analytics
 
--   **University of the Cumberlands (2024 - 2028)**
+-   **University of the Cumberlands (2024 - 2027)**
 
     -   Ph.D. Information Technology, Specialization in Artificial Intelligence
 
@@ -67,11 +67,15 @@ format:
 
     -   Analytics Manager, 04/2022 - 10/2023
 
-    -   Data Science Consultant, 10/2023 - Present
+    -   Data Science Consultant, 10/2023 - 04/2024
 
 -   **USASOC AI Division**
 
-    -   Data Scientist, 10/2023 - Present
+    -   Data Scientist, 10/2023 - 04/2024
+
+-   **TaxBit**
+
+    -   Data Scientist, 04/20214 - Present
 
 ## Career - Links {.smaller .scrollable}
 
@@ -80,8 +84,6 @@ format:
 -   [LinkedIn](https://www.linkedin.com/in/frenchtrevor/)
 
 -   [GitHub](https://github.com/TrevorFrench)
-
--   [Medium](https://medium.com/@FrenchTrevor)
 
 -   R for Data Analysis
 
@@ -125,13 +127,21 @@ format:
 
     -   [John Doe Summons](https://www.justice.gov/opa/pr/court-authorizes-service-john-doe-summons-seeking-identities-us-taxpayers-who-have-used-0) Circle/Poloniex
 
-    -   cryptotrackr [v.1.1.0](https://github.com/TrevorFrench/cryptotrackr/tree/v1.1)
+    -   cryptotrackr [v1.1.0](https://github.com/TrevorFrench/cryptotrackr/tree/v1.1)
 
 -   **2024**
 
     -   [Jupiter Airdrop](https://solscan.io/tx/4oHcsGUKACJ5gwbJxPLUZW7mukGqz9mnEREbSCCAYuXSn4kCS24haYjUsgDkp7XUBzRVHjvEqvJMuWPGRTQJStgt)
 
-    -   cryptotrackr [v.1.2.0](https://doi.org/10.5281/zenodo.10775699)
+    -   cryptotrackr [v1.2.0](https://doi.org/10.5281/zenodo.10775699) & [v1.3.0](https://github.com/TrevorFrench/cryptotrackr/releases/tag/v1.3.3)
+
+    -   [In-Q-Tel Investment in Taxbit](https://www.washingtontechnology.com/companies/2024/05/taxbit-secures-investment-q-tel/396208/)
+
+    -   Trained & Consulted IRS's Office of Digital Assets Initiative (ODAI)
+
+-   **2025**
+
+    -   [John Doe Summons](https://www.justice.gov/archives/opa/pr/court-authorizes-service-john-doe-summons-seeking-identities-us-taxpayers-who-have-used-1)
 
 ## Crypto Basics - Internet {.smaller .scrollable}
 
@@ -139,7 +149,7 @@ format:
 
 -   This serves as a founding principle for the internet and ultimately cryptocurrency.
 
-::: columns
+::::: columns
 ::: {.column width="35%"}
 > "Since destruction of a small number of nodes in a decentralized network can destroy communications, the properties, problems, and hopes of building 'distributed' communications networks are of paramount interest." 
 >
@@ -149,7 +159,7 @@ format:
 ::: {.column width="65%"}
 ![](./networks.png)
 :::
-:::
+:::::
 
 ## Crypto Basics - PoW {.smaller .scrollable}
 
@@ -159,7 +169,7 @@ format:
 
 ## Crypto Basics - Bitcoin Launch {.smaller .scrollable}
 
-::: columns
+::::: columns
 ::: {.column width="35%"}
 -   [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) is released in 2008
 -   Bitcoin Network launches in 2009
@@ -169,7 +179,7 @@ format:
 ::: {.column width="65%"}
 ![](./btc.png)
 :::
-:::
+:::::
 
 ## Crypto Basics - A Secret Message {.smaller .scrollable}
 
@@ -200,9 +210,9 @@ decoded_message = ''.join([
 print(decoded_message)
 ```
 
-::: {.fragment .fade-in}
+##  {.smaller .scrollable}
+
 ![](./times2.png){fig-align="center" height="900px"}
-:::
 
 ## Crypto Basics - Ethereum {.smaller .scrollable}
 
@@ -256,3 +266,25 @@ print(decoded_message)
     -   [Alchemy University](https://www.alchemy.com/university/courses/solidity), [codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
 
 ## Q&A
+
+## Hawk Tuah {.smaller .scrollable}
+
+-   Reached a valuation as high as ~$500 million
+-   Quickly crashed, losing ~95% of its value
+-   Insiders are alleged to have dumped their holdings
+-   Promoters being sued for selling unregistered securities
+
+![](./HAWK_USD.png){fig-align="center" height="400px"}
+
+## What is Money? {.smaller .scrollable}
+
+-   Money facilitates transactions
+    - Easy to exchange
+    - Safe store of value
+-   Fiat currency
+    - Issued by government
+    - Not backed by physical commodities
+-   USD & the Gold Standard
+    - U.S. currency used to be backed by precious metals
+-   Commodity-backed currencies
+    - Many currencies (including cryptocurrencies) are still backed by commodities such as Gold
