@@ -141,7 +141,7 @@ format:
 
 -   **2025**
 
-    -   [John Doe Summons](https://www.justice.gov/archives/opa/pr/court-authorizes-service-john-doe-summons-seeking-identities-us-taxpayers-who-have-used-1)
+    -   [John Doe Summons](https://www.justice.gov/archives/opa/pr/court-authorizes-service-john-doe-summons-seeking-identities-us-taxpayers-who-have-used-1) Kraken
 
 ## Crypto Basics - Internet {.smaller .scrollable}
 
