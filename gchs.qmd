@@ -75,7 +75,10 @@ format:
 
 -   **TaxBit**
 
-    -   Data Scientist, 04/20214 - Present
+    -   Data Scientist, 04/20214 - 11/2025
+
+-   **USSOCOM**
+    -   Expert AI/ML Engineer, 11/2025 - Present
 
 ## Career - Links {.smaller .scrollable}
 
@@ -142,6 +145,9 @@ format:
 -   **2025**
 
     -   [John Doe Summons](https://www.justice.gov/archives/opa/pr/court-authorizes-service-john-doe-summons-seeking-identities-us-taxpayers-who-have-used-1) Kraken
+
+-  **2026**
+    - Doing consulting work focused on digital asset intelligence
 
 ## Crypto Basics - Internet {.smaller .scrollable}
 
